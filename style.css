@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 171, 45);
+    color: blue;
+}
+
+img {
+    width: 500px;
+
+}
+
+p {
+    font-size: xx-large;
+}
