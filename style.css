@@ -39,3 +39,24 @@ p {
     margin: 10px 0;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
+
+/* Donate button styles */
+.boba-btn {
+    background: rgba(255, 255, 255, 0.12);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    color: white;
+    padding: 12px 22px;
+    font-size: 1.05em;
+    border-radius: 999px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: transform 0.15s ease, background 0.15s ease;
+}
+
+.boba-btn:hover { transform: translateY(-3px); background: rgba(255,255,255,0.18); }
+.boba-btn:active { transform: translateY(0); }
+.boba-btn:disabled { opacity: 0.7; cursor: default; }
+
+.lead { font-size: 1.15em; margin: 6px 0 16px; opacity: 0.95; }
+.progress { background: rgba(255,255,255,0.06); height: 12px; border-radius: 999px; overflow: hidden; }
+.progress-bar { height: 100%; background: linear-gradient(90deg, #FDE68A, #34D399); width: 0; transition: width 0.5s cubic-bezier(.2,.8,.2,1); }
